@@ -1,6 +1,10 @@
- <?php
+  <?php
  function yourNamePrint() {
+
+ echo "My Surname is Perera";
+=======
  echo "My Second Name is Imasha";
+
  }
  ?>
  <!DOCTYPE html>
@@ -8,8 +12,7 @@
  <head>
  <title>Name Printer</title>
  <style>
- body { font-family: Arial; text-align: center; padding: 50px; background: #e8f5e9; }
- .output { font-size: 1.5em; color: #27ae60; margin: 20px; }
+
  </style>
  </head>
  <body>
@@ -17,6 +20,6 @@
  <div class="output">
  <?php yourNamePrint(); ?>
  </div>
- <p>Current branch: <strong>feature/secondname</strong></p>
+
  </body>
  </html>
